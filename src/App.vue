@@ -118,7 +118,8 @@ export default {
   data: () => ({
     personalData: {
       home: 'Lautertal, Germany',
-      briefcase: 'Full-Stack Web-Developer and iOS Developer',
+      briefcase: 'Full-Stack Web-Developer',
+      'briefcase-clock': 'iOS Developer',
       email: 'marcel@wlotzka.org'
     },
     charts: [
