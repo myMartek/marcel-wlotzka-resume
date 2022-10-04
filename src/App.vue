@@ -118,7 +118,7 @@ export default {
   data: () => ({
     personalData: {
       home: 'Lautertal, Germany',
-      briefcase: 'Full-Stack Web-Developer',
+      briefcase: 'Full-Stack Web-Developer and iOS Developer',
       email: 'marcel@wlotzka.org'
     },
     charts: [
@@ -143,6 +143,10 @@ export default {
             level: 85
           },
           {
+            label: 'TypeScript',
+            level: 75
+          },
+          {
             label: 'Objective-C',
             level: 70
           },
@@ -157,6 +161,24 @@ export default {
           {
             label: 'Kubernetes',
             level: 40
+          }
+        ]
+      },
+      {
+        title: 'Frameworks',
+        icon: 'mdi-hammer-wrench',
+        data: [
+          {
+            label: 'VueJS 2+',
+            level: 100
+          },
+          {
+            label: 'AngularJS',
+            level: 70
+          },
+          {
+            label: 'ReactJS',
+            level: 60
           }
         ]
       },
@@ -187,7 +209,7 @@ export default {
         until: 'Current'
       },
       {
-        doing: 'Head of softeware development',
+        doing: 'Head of software development',
         where: 'CMF | Die Sales Agentur®, Mörfelden-Walldorf',
         since: 'Sep. 2016',
         until: 'Aug. 2018'
